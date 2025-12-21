@@ -1,26 +1,24 @@
 # BurpsuitePro
 
 <p align="center">
-<strong>Burp Suite Professional</strong> is a powerful tool used for security testing of web applications. It helps professionals analyze, intercept, and manipulate HTTP/S traffic between the browser and the target application. Packed with features such as Proxy, Scanner, Repeater, Intruder, and more, it enables users to detect and exploit common vulnerabilities like SQL injection, XSS, and CSRF. This version is fully unlocked and intended for ethical hacking and educational purposes.
-
-<div align="center">
-
-![Build](https://img.shields.io/badge/build-stable-28a745?style=for-the-badge&logo=github)
-![Platform](https://img.shields.io/badge/platform-Linux-0078D6?style=for-the-badge&logo=linux&logoColor=white)
-![Platform](https://img.shields.io/badge/platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Last Commit](https://img.shields.io/github/last-commit/0nsec/BurpsuitePro?style=for-the-badge&logo=git)
-![Language](https://img.shields.io/github/languages/top/0nsec/BurpsuitePro?style=for-the-badge&color=informational)
-![Technologies](https://img.shields.io/badge/technologies-Bash%20%7C%20PowerShell%20%7C%20Python-yellow?style=for-the-badge&logo=terminal)
-![Stars](https://img.shields.io/github/stars/0nsec/BurpsuitePro?style=for-the-badge&color=ffac33&logo=github)
-![Forks](https://img.shields.io/github/forks/0nsec/BurpsuitePro?style=for-the-badge&color=blueviolet&logo=github)
-![Issues](https://img.shields.io/github/issues/0nsec/BurpsuitePro?style=for-the-badge&logo=github)
-![Contributors](https://img.shields.io/github/contributors/0nsec/BurpsuitePro?style=for-the-badge&color=9c27b0)
-
-<br />
-
-</div>
-
+  <strong>Burp Suite Professional</strong> is a powerful tool used for security testing of web applications.
+  It helps professionals analyze, intercept, and manipulate HTTP/S traffic between the browser and the
+  target application. Packed with features such as Proxy, Scanner, Repeater, Intruder, and more, it enables
+  users to detect and exploit common vulnerabilities like SQL injection, XSS, and CSRF.
+  <br><br>
+  This version is fully unlocked and intended for ethical hacking and educational purposes.
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/build-stable-28a745?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/platform-Linux-0078D6?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/technologies-Bash%20%7C%20PowerShell%20%7C%20Python-yellow?style=for-the-badge&logo=terminal" />
+  <img src="https://img.shields.io/github/stars/0nsec/BurpsuitePro?style=for-the-badge&color=ffac33&logo=github" />
+  <img src="https://img.shields.io/github/forks/0nsec/BurpsuitePro?style=for-the-badge&color=blueviolet&logo=github" />
+  <img src="https://img.shields.io/github/issues/0nsec/BurpsuitePro?style=for-the-badge&logo=github" />
+</p>
+
 
 This repository provides automated scripts to install and set up Burp Suite Pro. Key points:
 
@@ -94,3 +92,4 @@ The custom loader handles license activation.
 
 - loader by [0nsec](https://github.com/0nsec)  
 - Tweaked & maintained by [0nsec](https://github.com/0nsec)
+
