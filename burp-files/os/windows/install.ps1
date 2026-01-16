@@ -159,7 +159,7 @@ if (Test-Path $jarPath) {
 }
 
 # Checking loader and logo (prefer local loader; do not download from GitHub)
-$loaderSrc1 = Join-Path -Path $PSScriptRoot -ChildPath '..\burp-files\loader\loader-zero_nsec.jar'
+$loaderSrc1 = Join-Path -Path $PSScriptRoot -ChildPath '..\..\loader\loader-zero_nsec.jar'
 $foundLoader = $null
 
 foreach ($candidate in @($loaderSrc1)) {
