@@ -67,6 +67,12 @@ def run_windows_installer():
     if not ps:
         print(f"{RED}[X]{RESET} PowerShell not found in PATH. Please install PowerShell (pwsh/powershell) and try again.")
         sys.exit(1)
+    print(f"{BLUE}[*]{RESET} Setting execution policy for current process...")
+    try:
+        subprocess.run([ps, '-Command', 'Set-ExecutionPolicy', '-Scope', 'Process', '-ExecutionPolicy', 'Bypass', '-Force'], check=True)
+    except subprocess.CalledProcessError:
+        print(f"{YELLOW}[!]{RESET} Failed to set execution policy, continuing anyway...")
+    
     print(f"{BLUE}[*]{RESET} Running Windows installer with: {ps}")
     try:
         subprocess.run([ps, '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', str(WIN_SCRIPT)], check=True)
